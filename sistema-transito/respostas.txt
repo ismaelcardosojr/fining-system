@@ -13,7 +13,7 @@ CASCADE:
 - ALL, ação que inclui todas acima;
 - DETACH, ação de dessincronizar uma entidade, fazendo com que seus dados não sejam mais persistidos.
 
-Por fim, essas ações serão reproduzidas/propagadas pelo CASCADE no sistema.
+Por fim, essas ações serão reproduzidas/propagadas pelo CASCADE.
 
 OPTIONAL:
 
