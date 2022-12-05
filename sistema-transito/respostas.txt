@@ -13,6 +13,8 @@ CASCADE:
 - ALL, ação que inclui todas acima;
 - DETACH, ação de dessincronizar uma entidade, fazendo com que seus dados não sejam mais persistidos.
 
+Por fim, essas ações serão reproduzidas/propagadas pelo CASCADE no sistema.
+
 OPTIONAL:
 
 Vejo como um NULLABLE, mas aos atributos que representam relações entre tabelas. Por padrão, vem setado como TRUE. Caso, porém, o contexto exija dados inseridos nesse tipo de atributo, pode ser setado como FALSE.
