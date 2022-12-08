@@ -1,0 +1,18 @@
+FETCH:
+
+Dos 2 tipos de FETCH aprendidos, o EAGER, padrão dos mapeamentos do Hibernate, carrega os dados do banco mesmo sem necessidade. Se déssemos GET em 2 atributos dum(a) objeto/tabela de 5, por exemplo, todos os 5 seriam carregados. Em contrapartida, o LAZY carregaria apenas os 2, algo a ter muito potencial para aprimorar a performance de nossos sistemas.
+
+CASCADE:
+
+É o efeito decorrido por uma ação no manejo do BD. Esse efeito acomete as tabelas relacionadas à tabela receptora da tal ação, que pode ser dividida em 6: 
+
+- PERSIST, ação de persistir uma entidade;
+- REMOVE, ação de remover uma entidade;
+- MERGE, ação de atualizar informações duma entidade;
+- REFRESH, ação de recarregar uma entidade;
+- ALL, ação que inclui todas acima;
+- DETACH, ação de dessincronizar uma entidade, fazendo com que seus dados não sejam mais persistidos.
+
+OPTIONAL:
+
+Vejo como um NULLABLE, mas aos atributos que representam relações entre tabelas. Por padrão, vem setado como TRUE. Caso, porém, o contexto exija dados inseridos nesse tipo de atributo, pode ser setado como FALSE.
