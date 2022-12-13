@@ -1,6 +1,6 @@
-# Sistema de Multas
+# Fining System 🚦
 
-Dispõe das funcionalidades: inserção, remoção, alteração e obtenção (DAO) de entidades relacionadas. Com isso, por meio de um simples menu, gerencia as entidades Condutor, Veículo e Multa através do usuário. É capaz, também, de filtrar multas por veículo e transferir veículos entre condutores. Por fim, reforça e utiliza conceitos/tecnologias como:
+A system with the functionalities: insertion, removal, alteration and obtaining (done through DAO's) of related entities. This system manages the entities Driver, Vehicle and Fine through user interaction and it's also able to filter fines by vehicle/transfer vehicles between drivers. Finally, the system reinforces and uses concepts/technologies such as:
 
 * POO
 * ORM
