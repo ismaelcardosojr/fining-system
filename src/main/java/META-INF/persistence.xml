@@ -18,7 +18,7 @@
 			<property name="
 				javax.persistence.jdbc.user" value="postgres" />
 			<property name="jakarta.persistence.jdbc.password"
-				value="123456" />
+				value="" />
 			<property name="hibernate.default_schema" value="public"/>
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.PostgreSQLDialect" />
